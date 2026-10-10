@@ -1,0 +1,7 @@
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+.card { background: rgba(255,255,255,0.04); border: 1px solid rgba(124,58,237,0.2); border-radius: 20px; backdrop-filter: blur(10px); padding: 2rem; text-align: center; transition: all 0.3s; }
+.card:hover { background: rgba(255,255,255,0.08); border-color: rgba(168,85,247,0.4); transform: translateY(-4px); box-shadow: 0 0 40px rgba(124,58,237,0.3); }
+.emoji { font-size: 0.8rem; font-weight: 900; width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, #7c3aed, #ec4899); display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: white; letter-spacing: 0; }
+.card h3 { font-family: 'Outfit', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: #f0f0ff; }
+.card p { color: #a0a0c0; font-size: 0.85rem; }

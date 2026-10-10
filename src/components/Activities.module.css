@@ -1,0 +1,7 @@
+
+.list { display: grid; gap: 1rem; }
+.item { background: rgba(255,255,255,0.04); border: 1px solid rgba(124,58,237,0.2); border-radius: 20px; backdrop-filter: blur(10px); padding: 1.5rem; display: flex; align-items: center; gap: 1rem; transition: all 0.3s; }
+.item:hover { background: rgba(255,255,255,0.08); border-color: rgba(168,85,247,0.4); transform: translateY(-4px); box-shadow: 0 0 40px rgba(124,58,237,0.3); }
+.icon { font-size: 0.65rem; font-weight: 800; width: 56px; height: 56px; background: rgba(124,58,237,0.1); border: 1px solid rgba(124,58,237,0.2); border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: #a855f7; text-align: center; }
+.item h3 { font-family: 'Outfit', sans-serif; font-size: 1rem; font-weight: 700; color: #f0f0ff; }
+.item p { color: #a0a0c0; font-size: 0.85rem; margin-top: 0.2rem; }

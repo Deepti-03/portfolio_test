@@ -1,0 +1,9 @@
+
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.5rem; }
+.card { background: rgba(255,255,255,0.04); border: 1px solid rgba(124,58,237,0.2); border-radius: 20px; backdrop-filter: blur(10px); padding: 2rem; transition: all 0.3s; }
+.card:hover { background: rgba(255,255,255,0.08); border-color: rgba(168,85,247,0.4); transform: translateY(-4px); box-shadow: 0 0 40px rgba(124,58,237,0.3); }
+.num { font-family: 'Outfit', sans-serif; font-size: 3rem; font-weight: 800; background: linear-gradient(135deg, rgba(124,58,237,0.3), rgba(236,72,153,0.3)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; line-height: 1; margin-bottom: 0.5rem; }
+.title { font-family: 'Outfit', sans-serif; font-size: 1.1rem; font-weight: 700; margin-bottom: 0.8rem; color: #f0f0ff; }
+.desc { color: #a0a0c0; font-size: 0.9rem; line-height: 1.7; }
+.tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+.tag { background: rgba(124,58,237,0.15); border: 1px solid rgba(124,58,237,0.25); color: #a855f7; border-radius: 100px; padding: 0.2rem 0.7rem; font-size: 0.75rem; font-weight: 500; }

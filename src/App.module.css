@@ -1,0 +1,4 @@
+
+.main { position: relative; z-index: 1; }
+.footer { text-align: center; padding: 2rem; color: #6060a0; font-size: 0.85rem; border-top: 1px solid rgba(124,58,237,0.2); position: relative; z-index: 1; }
+.footer span { background: linear-gradient(135deg, #a855f7, #ec4899); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; font-weight: 600; }

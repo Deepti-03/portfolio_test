@@ -1,0 +1,9 @@
+
+.grid { display: grid; gap: 1.5rem; }
+.card { background: rgba(255,255,255,0.04); border: 1px solid rgba(124,58,237,0.2); border-radius: 20px; backdrop-filter: blur(10px); padding: 2rem; display: flex; gap: 1.5rem; align-items: flex-start; transition: all 0.3s; }
+.card:hover { background: rgba(255,255,255,0.08); border-color: rgba(168,85,247,0.4); transform: translateY(-4px); box-shadow: 0 0 40px rgba(124,58,237,0.3); }
+.iconBox { font-size: 0.7rem; font-weight: 800; flex-shrink: 0; width: 56px; height: 56px; border-radius: 14px; background: rgba(124,58,237,0.1); border: 1px solid rgba(124,58,237,0.2); display: flex; align-items: center; justify-content: center; color: #a855f7; }
+.content h3 { font-family: 'Outfit', sans-serif; font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; color: #f0f0ff; }
+.content p { color: #a0a0c0; font-size: 0.9rem; line-height: 1.7; }
+.award { display: inline-flex; align-items: center; gap: 0.4rem; background: linear-gradient(135deg, rgba(251,191,36,0.15), rgba(245,158,11,0.1)); border: 1px solid rgba(251,191,36,0.3); color: #fbbf24; border-radius: 100px; padding: 0.3rem 0.9rem; font-size: 0.78rem; font-weight: 600; margin-top: 0.7rem; }
+@media (max-width: 768px) { .card { flex-direction: column; } }

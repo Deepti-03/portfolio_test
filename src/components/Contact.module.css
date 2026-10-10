@@ -1,0 +1,6 @@
+
+.contact { text-align: center; }
+.desc { color: #a0a0c0; max-width: 480px; margin: 0 auto; }
+.emailWrap { margin-top: 1.5rem; }
+.email { display: inline-flex; align-items: center; gap: 0.8rem; background: rgba(255,255,255,0.04); border: 1px solid rgba(124,58,237,0.2); border-radius: 100px; padding: 1rem 2rem; font-size: 1rem; color: #f0f0ff; text-decoration: none; backdrop-filter: blur(10px); transition: all 0.3s; }
+.email:hover { border-color: #a855f7; box-shadow: 0 0 40px rgba(124,58,237,0.3); background: rgba(255,255,255,0.08); }
